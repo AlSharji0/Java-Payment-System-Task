@@ -3,7 +3,7 @@ public class Cash extends PaymentMethod {
         super(_name);
     }
 
-    @override
+    @Override
     void pay(double amount) {
         System.out.printf("Paid %f, using Cash: %s%n", amount, getName());
     }
